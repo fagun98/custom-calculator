@@ -1,4 +1,4 @@
-from .basic import add, subtract, multiply, divide
-from .advanced import square_root, power
+from .basic import BasicCalculator
+from .advanced import AdvancedCalculator
 
-__all__ = ['add', 'subtract', 'multiply', 'divide', 'square_root', 'power']
+__all__ = ['BasicCalculator', 'AdvancedCalculator']

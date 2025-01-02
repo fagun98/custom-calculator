@@ -1,13 +1,19 @@
-def add(a, b):
-    return a + b
+class BasicCalculator:
+    """Class for basic mathematical operations."""
 
-def subtract(a, b):
-    return a - b
+    def __init__(self):
+        print("Done")
 
-def multiply(a, b):
-    return a * b
+    def add(self, a, b):
+        return a + b
 
-def divide(a, b):
-    if b == 0:
-        raise ValueError("Division by zero is not allowed.")
-    return a / b
+    def subtract(self, a, b):
+        return a - b
+
+    def multiply(self, a, b):
+        return a * b
+
+    def divide(self, a, b):
+        if b == 0:
+            raise ValueError("Division by zero is not allowed.")
+        return a / b

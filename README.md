@@ -1,10 +1,12 @@
 # Custom Calculator
 
-A simple Python module that provides basic and advanced mathematical functions.
+A simple Python module with class-based basic and advanced mathematical functions.
 
 ## Features
-- Basic operations: addition, subtraction, multiplication, division.
-- Advanced operations: square root, power.
+- **BasicCalculator**
+  - Addition, Subtraction, Multiplication, Division.
+- **AdvancedCalculator**
+  - Square root, Power.
 
 ## Installation
 ```bash

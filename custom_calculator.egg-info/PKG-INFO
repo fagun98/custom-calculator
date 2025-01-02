@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: custom-calculator
+Version: 0.1.3
+Summary: A simple calculator module with basic and advanced mathematical functions.
+Home-page: https://github.com/fagun98/custom_calculator
+Author: Your Name
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License

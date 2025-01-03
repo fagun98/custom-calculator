@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="custom_calculator",
-    version="0.2",
+    version="0.2.1",
     packages=find_packages(),
     install_requires=[
         "mathlib",  # No need to install as math is built-in, this is for reference.

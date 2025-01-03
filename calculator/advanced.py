@@ -18,3 +18,9 @@ class AdvancedCalculator:
         if a <= 0:
             raise ValueError("Logarithm is undefined for non-positive numbers.")
         return math.log(a, base)
+
+    @staticmethod
+    def factorial(n):
+        if not isinstance(n, int) or n < 0:
+            raise ValueError("Factorial is defined only for non-negative integers.")
+        return math.factorial(n)
